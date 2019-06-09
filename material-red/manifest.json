@@ -1,0 +1,24 @@
+{
+	"manifest_version": 2,
+	"version": "1.0",
+	"name": "Material Red",
+	"theme": {
+		"colors" : {
+			"frame" : [96, 16, 9],
+			"frame_inactive" : [96, 16, 9],
+			"frame_incognito": [0, 0, 0],
+			"frame_incognito_inactive": [0, 0, 0],
+			"tab_text": [255, 255, 255],
+			"tab_background_text": [255, 255, 255],
+			"toolbar" : [150, 24, 13],
+			"bookmark_text": [255, 255, 255],
+			"ntp_background": [79, 12, 6],
+			"ntp_text" : [255, 255, 255],
+			"ntp_link" : [255, 255, 255],
+			"ntp_link_underline" : [255, 255, 255]
+		},
+		"tints" : {
+			"buttons" : [1, 1, 1]
+		}
+	}
+}
