@@ -6,8 +6,8 @@
 		"colors" : {
 			"frame" : [96, 16, 9],
 			"frame_inactive" : [96, 16, 9],
-			"frame_incognito": [0, 0, 0],
-			"frame_incognito_inactive": [0, 0, 0],
+			"frame_incognito": [63, 11, 9],
+			"frame_incognito_inactive": [63, 11, 9],
 			"tab_text": [255, 255, 255],
 			"tab_background_text": [255, 255, 255],
 			"toolbar" : [150, 24, 13],
