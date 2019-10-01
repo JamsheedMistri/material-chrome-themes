@@ -12,3 +12,32 @@ I might release these to the public in the future, but it requires a $5 payment 
 
 ### Material Gold
 ![Material Gold theme screenshot](https://i.imgur.com/yBDltJg.jpg)
+
+## Template
+Here's a starter template for new themes and what each key/value pair is.
+```javascript
+{
+	"manifest_version": 2,
+	"version": "1.0", // Version of theme
+	"name": "Example Theme", // Name of theme
+	"theme": {
+		"colors" : {
+			"frame" : [R, G, B], // Behind the tabs color
+			"frame_inactive" : [R, G, B], // Behind the tabs color when not focused
+			"frame_incognito": [R, G, B], // Behind the tabs color in in incognito
+			"frame_incognito_inactive": [R, G, B], // Behind the tabs color in in incognito when not focused
+			"tab_text": [R, G, B], // Tab text color
+			"tab_background_text": [R, G, B], // Unfocused tab text color
+			"toolbar" : [R, G, B], // Tab background and below color
+			"bookmark_text": [R, G, B], // Book mark text color
+			"ntp_background": [R, G, B], // New tab background color
+			"ntp_text" : [R, G, B], // New tab text color
+			"ntp_link" : [R, G, B], // New tab link color
+			"ntp_link_underline" : [R, G, B] // New tab underline color
+		},
+		"tints" : {
+			"buttons" : [R / 255, G / 255, B / 255] // Tint color of control buttons (home, refresh, etc) from 0-1, where 0 is black and 1 is white
+		}
+	}
+}
+```
